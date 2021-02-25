@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     float totalPreTax, totalPostTax;
 
