@@ -14,6 +14,5 @@ int main(void)
         printf("%d", counter);
         counter--;
     }   
-
     return 0;
 }

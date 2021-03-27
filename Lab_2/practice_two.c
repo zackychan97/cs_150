@@ -7,18 +7,17 @@
 
 int main(void)
 {
-    int inputInteger;
-    int n = 0;
+    int sum = 0;
+    int n;
+
+    printf("Enter an integer: \n");
+    scanf("%d", &n);
+
     int i = 1;
-
-    printf("Enter a positive integer: ");
-    scanf("%d", &inputInteger);
-
-    while (inputInteger > n){
-        n += 1;
+    while(i <= n)
+    {
+        sum += i;
         i++;
     }
 
-    printf("Sum is %d\n", n);
-    return 0;
-}
+    printf("Sum is %d \n", sum);
